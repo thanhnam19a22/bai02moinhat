@@ -1,0 +1,172 @@
+body{
+  font: 15px/1.6 Arial, Helvetica, sans-serif;
+  margin:0;
+  padding:0;
+  background:#ffffff;
+  color:#333;
+}
+
+.container{
+  width:90%;
+  max-width:1000px;
+  margin:auto;
+  overflow:hidden;
+}
+
+.container:after{
+  content:"";
+  display:block;
+  clear:both;
+}
+
+ul{
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+
+.button_1{
+  height:38px;
+  background:#e74c3c;
+  border:0;
+  padding:0 20px;
+  color:#fff;
+  border-radius:5px;
+  cursor:pointer;
+}
+
+.button_1:hover{
+  background:#000;
+}
+
+.dark{
+  padding:15px;
+  background:#111;
+  color:#fff;
+  margin:15px 0;
+  border-radius:5px;
+}
+
+header{
+  background:#111;
+  color:#fff;
+  padding-top:20px;
+  min-height:70px;
+  border-bottom:#e74c3c 3px solid;
+}
+
+header #branding{
+  float:left;
+}
+
+header nav{
+  float:right;
+  margin-top:10px;
+}
+
+header li{
+  float:left;
+  padding:0 15px;
+}
+
+header a{
+  color:#fff;
+  text-decoration:none;
+  text-transform:uppercase;
+  font-size:15px;
+}
+
+header .highlight,
+header .current a{
+  color:#e74c3c;
+  font-weight:bold;
+}
+
+#showcase{
+  min-height:350px;
+  background:linear-gradient(135deg,#111,#e74c3c);
+  color:#fff;
+  text-align:center;
+  padding-top:90px;
+}
+
+#newsletter{
+  padding:15px;
+  background:#222;
+  color:#fff;
+}
+
+#newsletter h1{
+  float:left;
+}
+
+#newsletter form{
+  float:right;
+  margin-top:10px;
+}
+
+#newsletter input[type="email"]{
+  padding:6px;
+  height:28px;
+  width:230px;
+  border:0;
+  border-radius:4px;
+}
+
+#main{
+  margin-top:20px;
+  overflow:hidden;
+}
+
+article#main-col{
+  float:left;
+  width:65%;
+}
+
+aside#sidebar{
+  float:right;
+  width:30%;
+}
+
+aside#sidebar .quote{
+  background:#111;
+  padding:15px;
+  border-radius:5px;
+  color:#fff;
+}
+
+aside#sidebar input,
+aside#sidebar textarea{
+  width:100%;
+  padding:10px;
+  margin-bottom:10px;
+  border:0;
+  border-radius:4px;
+  box-sizing:border-box;
+}
+
+#boxes{
+  margin-top:20px;
+  display:flex;
+  flex-direction:row;
+  justify-content:flex-start;
+  gap:20px;
+  flex-wrap:nowrap;
+}
+
+#boxes .box{
+  flex:1;
+  padding:15px;
+  text-align:center;
+  background:#f1f3f6;
+  border-radius:8px;
+}
+
+footer{
+  padding:20px;
+  margin-top:20px;
+  background:#000;
+  color:#fff;
+  text-align:center;
+}
+
